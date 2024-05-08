@@ -538,6 +538,7 @@ HTTP/3 is the latest evolution of the HTTP protocol, built on top of QUIC, a tra
 - **Stream Independence**: Unlike HTTP/2, HTTP/3 avoids head-of-line blocking by ensuring streams are processed independently.
 
 An HTTP/3 request follows a similar structure to HTTP/2, but uses QUIC for transport::
+  
   method = GET
   authority = google.com
   path = /
